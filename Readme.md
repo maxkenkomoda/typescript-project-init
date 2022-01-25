@@ -20,7 +20,7 @@ sh ts-project-init.sh
 "scripts": {
   "start": "node dist/index.js",
   "init:project": "mkdir src && touch src/index.ts",
-  "init:test": "mkdir test && touch test/index.ts",
+  "init:test": "mkdir test && touch test/index.spec.ts",
   "dev:watch": "env NODE_ENV=local tsc-watch --onSuccess 'node --require=dotenv/config dist/index.js' ",
   "clean": "rimraf dist/*",
   "tsc": "tsc",
