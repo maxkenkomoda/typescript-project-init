@@ -13,3 +13,6 @@ mocha @types/mocha
 
 # install dotenv
 npm install dotenv
+
+echo "removing github origin"
+git remote remove origin
