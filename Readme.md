@@ -1,5 +1,13 @@
 # TypeScript dev env init
-## First init your project
+## First clone
+```
+git clone git@github.com:maxkenkomoda/typescript-project-init.git
+```
+## Next change your project name
+```
+mv typescript-project-init YOUR_PROJECT_NAME
+```
+## Next init your project
 ```
 npm init
 ```
