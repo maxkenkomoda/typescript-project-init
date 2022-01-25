@@ -1,0 +1,6 @@
+/node_modules
+/dist
+logfile
+.env
+.DS_Store
+sa.json
