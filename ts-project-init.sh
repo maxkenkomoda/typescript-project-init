@@ -16,3 +16,6 @@ npm install dotenv
 
 echo "removing github origin"
 git remote remove origin
+
+echo "removing this shell script"
+rm ts-project-init.sh
