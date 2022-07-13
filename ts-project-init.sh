@@ -3,8 +3,8 @@ npm install --save-dev \
 typescript @types/node ts-node tsc-watch \
 eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier prettier \
 rimraf npm-run-all \
-chai chai-as-promised @types/chai @types/chai-as-promised \
-mocha @types/mocha
+jest @types/jest ts-jest\
+@cybozu/eslint-config
 
 # install dotenv
 npm install dotenv
